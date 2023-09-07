@@ -1,12 +1,24 @@
-/*$color-primary:  #F08030;*/
-
-/*==basic reset==*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
     /*==universal reset==*/
+
+** css variables **/
+:root{
+    --color-primary: #f08030;
+    --color-secondary: #181935;
+    --color-white: #fff;
+    --color-black: ;
+
+
+    --container-width-lg: 84%;
+    --container-width-md: 90;
+    --container-width-sm: 94%;
+    --transistion: all 400ms ease;
+}
+
 body {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
