@@ -74,50 +74,7 @@ h4 {
     border-color: var(--color-primary);
  }
 
- /* ************************************ NAVBAR *************************** */
- nav {
-    background: var(--color-white);
-    width: 100vw;
-    height: 5rem;
-    position: fixed;
-    top: 0;
-    z-index: 11;
- }
-
- .nav__container {
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
- }
-.icon {
-    display: flex;
-    gap: 1.2rem;
-} 
-
-.nav__menu {
-    display: flex;
-    align-items: center;
-}
- nav button {
-    display: none;
-    
- }
- .nav__menu ul{
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    border: 1px solid red;
- }
- .nav__menu a {
-    font-size: 0.9rem;
-    color: var(--color-primary);
-    transition: var(--transistion)
- }
- .nav__menu a:hover{
-    color: var(--color-secondary);
- }
-
+ /* ************************************ header section *************************** */
  header {
     position: relative;
     top: 5rem;
