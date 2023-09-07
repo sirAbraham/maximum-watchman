@@ -39,7 +39,7 @@ a {
 }
 .header__background {
     background-image: url(../images/home-slider1.png);
-    width: 1331px;
+    width: 100%;
     height: 606px;
     
 }
@@ -113,3 +113,89 @@ color: #7D7D7D;
     background: linear-gradient(180deg, #37397B 0%, #181935 100%);
 
 }
+
+/*======== footer sectin========*/
+#subscribe {
+    background: linear-gradient(180deg, #37397B 0%, #181935 100%);   
+  }
+  .email__box {   
+    margin-right: 55px;   
+  }
+  .email__box, .input__box{
+    height: 60px;
+    width: calc(60% + 55px);
+    padding: 0 15px;
+  }
+  
+  
+ footer .content{
+    max-width: 1250px;
+    margin: auto;
+    padding: 30px 40px 40px 40px;
+ }
+ footer .content .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ 
+ #subscribe .footer__top{   
+    position: relative;
+ }
+ #subscribe .footer__top::before{
+    content: '';
+    position: absolute;
+    left: 20%;
+    top: -10px;
+    height: 1px;
+    width: 60%;
+    background: var(--color-white);    
+ }
+ 
+ #subscribe .footer__botom{
+    padding: 20px;
+    position: relative;
+ }
+ #subscribe .footer__botom::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -10px;
+    height: 2px;
+    width: 100%;
+    background: #afafb6;   
+ }
+ .contact__col .social_icons a{
+    height: 40px;
+    width: 40px;
+    margin: 8px;
+    padding: 0.6rem;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: var(--color-white);
+    font-size: 1rem;
+    text-decoration: none;
+    transition: var(--transistion);
+ }
+ .contact__col .social_icons a:nth-child(1){
+    background: #4267b2;
+ }
+ .contact__col .social_icons a:nth-child(2){
+    background: #E1306C;
+ }
+ .contact__col .social_icons a:nth-child(3){
+    background: #4267b2;
+ }
+ .contact__col .social_icons a:nth-child(4){
+    background: #FF0000;
+ }
+ .contact__col .social_icons a:hover{
+    color: var(--color-secondary);
+    background: var(--color-white);
+ }
+ @media (max-width: 700px){
+    .content .top .logo-details{
+       font-size: 0cap;
+    }
+ }
