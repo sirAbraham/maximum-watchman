@@ -459,4 +459,57 @@ color: #7D7D7D;
     border-radius: 0px;
     background: #248FA8;
   }
+
+  /** consultation section **/
+.contact__us{
+  color: var(--color-secondary);
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  padding-top: 4rem;   
+}
+
+.contact__col{
+  flex-basis: 40%;
+  margin: 0 auto;  
+}
+.contact__col .info{
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+.contact__col .info .fa{
+  font-size: 28px;
+  color: var(--color-primary);
+  margin: 10px;
+  margin-right: 30px;   
+}
+
+
+.contact__col .inputBox{
+  position: relative;
+}
+.contact__col .inputBox input, .contact__col .inputBox textarea{
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 1.6rem;
+  outline: none;
+  border: 1px solid #ccc;   
+}
+.contact__col .inputBox span{
+  position: absolute;
+  left: 0;
+  padding: 0 10px;
+  pointer-events: none;
+  font-size: 1em;
+  text-transform: capitalize;
+  transform: translateX(10px) translateY(-15px);
+  background: var(--color-white);   
+}
+.contact__col .inputBox .txt{
+  transform: translateX(10px) translateY(-15px);
+} 
+
+
+
   
